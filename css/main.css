@@ -1,0 +1,46 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*Header styles*/
+header, nav ul {
+display: flex;
+}
+header {
+justify-content: space-between;
+align-items: center;
+padding: 1em 2em;
+}
+
+header li {
+  list-style: none;
+  margin-right: 1em;
+}
+header a {
+  text-decoration: none;
+  }
+/*END HEADER STYLES*/
+header {
+  display: flex;
+}
+nav ul {
+  display: flex;
+
+}
+h2 {
+  display: flex;
+}
+nav ul {
+  display: flex;
+      flex-direction: row;
+      flex-wrap: wrap-reverse;
+      justify-content: space-between;
+      align-items: flex-start;
+      align-content: space-between;
+  }
+}
+body {
+  background:
+}
